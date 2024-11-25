@@ -1,0 +1,73 @@
+{
+    "hash_value": "00B1A13C79F4DBBB",
+    "hash_offset": 53020277,
+    "hash_size": 2147559366,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 139,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 199696,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt_algae_rust_decal_outside_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/ceiling/ceiling_beam_wooden_decorated_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/edges/bricksworn_stuccorough_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt_buildings_outside_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/wall/wallpaper_floral_d.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/edges/bricksworn_stuccorough_a_nodiffuse.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/decoration/wall_fresco_decorations_italy_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/floor/tiles_terracotta_g.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/edges/edge_decals_concrete_a_nodiffuse.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/ceiling/ceiling_beam_wooden_simple_b.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/floor/carpet_red_stairs_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/floor/tiles_terracotta_b.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/trim/trims_walls_collection_italy_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/architecture/stairs/stairs_stone_mansion_indoor_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/ceiling/ceiling_wooden_decorated_a.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

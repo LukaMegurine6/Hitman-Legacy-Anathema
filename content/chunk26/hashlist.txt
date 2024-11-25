@@ -1,3 +1,2 @@
-00C53C7FBC45BB3F.MATI,[assembly:/_pro/environment/materials/levels/skunk/skunk_wallpaper_anathema.mi].pc_mi
-00A77CAA420E4FA6.MATT,[assembly:/_pro/environment/materials/levels/skunk/skunk_wallpaper_anathema.mi].pc_entitytype
-008A5E6A62FD9991.MATB,[assembly:/_pro/environment/materials/levels/skunk/skunk_wallpaper_anathema.mi].pc_entityblueprint
+00B1A13C79F4DBBB.PRIM,[assembly:/_pro/environment/geometry/levels/coastal_town_italy/mansion_a_floor_1_interior_a.wl2?/mansion_floor1_room_anathema.prim].pc_prim
+
