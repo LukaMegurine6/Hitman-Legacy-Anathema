@@ -1,0 +1,69 @@
+{
+        "a7930fae-37ac-45f1-977f-4e9ef8d37434": {
+        "ID_": "a7930fae-37ac-45f1-977f-4e9ef8d37434",
+        "Image": "images/ThomasCross.jpg",
+        "Name": "Thomas Cross",
+        "Outfit": "c236ee00-cd6e-405c-839a-3c1400bada8e",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"30ec8436-bf90-41e6-9023-9cd7e3a03e58": {
+        "ID_": "30ec8436-bf90-41e6-9023-9cd7e3a03e58",
+        "Image": "images/Savalas.jpg",
+        "Name": "Athena Savalas",
+        "Outfit": "b12eac83-e681-466e-bb5c-d9b2303f433b",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"03eb967c-ebcf-4567-aa46-a3faf1e160da": {
+        "ID_": "03eb967c-ebcf-4567-aa46-a3faf1e160da",
+        "Image": "images/Morgan.jpg",
+        "Name": "Ken Morgan",
+        "Outfit": "ea7bea33-e436-485b-bfb0-4d5a6ae9f694",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"579a3aac-1a09-4f92-aa7c-09d382be7ee7": {
+        "ID_": "579a3aac-1a09-4f92-aa7c-09d382be7ee7",
+        "Description": "UI_SAVALASBODYGUARD_SUIT",
+        "HeroDisguiseAvailable": true,
+        "Image": "images/Destinations/Paris/Bodyguard Savalas.jpg",
+        "Name": "UI_SAVALASBODYGUARD_SUIT"
+    },"1ac2236f-e1a7-493d-b497-02f3f8fac389": {
+        "ID_": "1ac2236f-e1a7-493d-b497-02f3f8fac389",
+        "Image": "images/Sandman.jpg",
+        "Name": "David Sandman",
+        "Outfit": "579a3aac-1a09-4f92-aa7c-09d382be7ee7",
+        "OutfitVariationIndex": 1.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"5e600de2-af75-4731-9845-bb9172e9496f": {
+        "ID_": "5e600de2-af75-4731-9845-bb9172e9496f",
+        "Image": "images/Tsumoto.jpg",
+        "Name": "Shigeru Tsumoto",
+        "Outfit": "579a3aac-1a09-4f92-aa7c-09d382be7ee7",
+        "OutfitVariationIndex": 2.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"    
+   },"2f7ab6f8-26fa-44b0-98cc-3e7f98c81164": {
+        "ID_": "2f7ab6f8-26fa-44b0-98cc-3e7f98c81164",
+        "Image": "images/Enoran.jpg",
+        "Name": "Michael Enoran",
+        "Outfit": "579a3aac-1a09-4f92-aa7c-09d382be7ee7",
+        "OutfitVariationIndex": 3.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    }
+}   
