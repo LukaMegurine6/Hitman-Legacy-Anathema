@@ -1,0 +1,629 @@
+{
+	"tempHash": "0021710EC9848BF1",
+	"tbluHash": "00CDCCB181B95618",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"cafeab894165b84a": {
+			"parent": "fffffffffffffffe",
+			"name": "Mission Revenge",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe9c3a2bbd92f4": {
+			"parent": "cafeab894165b84a",
+			"name": "Npcs",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafeb4ed9b8aaf2d": {
+			"parent": "cafeab894165b84a",
+			"name": "Outfits",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe6e1725b712a4": {
+			"parent": "cafeab894165b84a",
+			"name": "Props",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafea25c82e55e50": {
+			"parent": "cafe67e1a0c6a444",
+			"name": "Keyword_WEAPON_SWORD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_sword.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_sword.entitytemplate].pc_entityblueprint"
+		},
+		"cafedc300ebf42fb": {
+			"parent": "cafe67e1a0c6a444",
+			"name": "Keyword_WEAPON_SNIPER",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_sniper.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_sniper.entitytemplate].pc_entityblueprint"
+		},
+		"cafec21959b03c0c": {
+			"parent": "cafe67e1a0c6a444",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe67e1a0c6a444"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe67e1a0c6a444": {
+			"parent": "cafe9e40ea42f802",
+			"name": "Revenge_Unique_Guillano",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWeaponsAllowed": { "type": "bool", "value": true },
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "f3e52d2f-2188-4eac-bbca-66e3736bc548"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Edgy_Unique_Organizer"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Club Organizer"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_ClubOwner"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_edgy.sweetmenutext?/outfits_edgy_unique_clubowner_m_name_64396c6a-0ad5-4d71-8102-a474a0a3b523.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_edgy.sweetmenutext?/outfits_edgy_unique_clubowner_m_desc_64396c6a-0ad5-4d71-8102-a474a0a3b523.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_CIVMALE06"]
+				},
+				"m_eOutfitType": {
+					"type": "EOutfitType",
+					"value": "eOT_Suit"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_bAllowRadioAct": { "type": "bool", "value": false },
+				"m_aWeaponsAllowedExceptionKeywords": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafea25c82e55e50", "cafedc300ebf42fb"]
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe13b1061d4286"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe7ff07bde22c9": {
+			"parent": "cafe67e1a0c6a444",
+			"name": "KeywordEntity_FOLEY_OUTFIT_SUIT47",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe67e1a0c6a444"]
+				}
+			}
+		},
+		"cafe13b1061d4286": {
+			"parent": "cafe67e1a0c6a444",
+			"name": "CHARSET_Guillano",
+			"factory": "00D09FBADD50EB6B",
+			"blueprint": "58722420081617771"
+		},
+		"cafe9e40ea42f802": {
+			"parent": "cafeb4ed9b8aaf2d",
+			"name": "Target",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe88cf0f0f1088": {
+			"parent": "cafeb4ed9b8aaf2d",
+			"name": "Family",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe3ff7ca3ea4d7": {
+			"parent": "cafe9c3a2bbd92f4",
+			"name": "MainTarget",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe9edd9a6c1b11": {
+			"parent": "cafe9c3a2bbd92f4",
+			"name": "Family",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe742c22b16655": {
+			"parent": "cafe3ff7ca3ea4d7",
+			"name": "Giuseppe Guillano",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -69.38519 },
+						"position": {
+							"x": 37.680454,
+							"y": -45.215637,
+							"z": 12.81871
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "d86c09e7-3e15-4b10-aae3-8975b66bf9ca"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "f3e52d2f-2188-4eac-bbca-66e3736bc548"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Richard Wilson"
+				},
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_CIVMALE06"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafeba29b49e6c2c": {
+			"parent": "cafe742c22b16655",
+			"name": "ActorDeath",
+			"factory": "[modules:/zactordeathentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe742c22b16655"
+				}
+			},
+			"events": {
+				"OnDead": {
+					"SetFalse": ["cafe4ebb549622bf", "cafe144707e575b4"]
+				},
+				"OnPacified": { "SetFalse": ["cafe144707e575b4"] },
+				"OnAlive": {
+					"SetTrue": ["cafe144707e575b4", "cafe4ebb549622bf"]
+				}
+			}
+		},
+		"cafe7931dbe66438": {
+			"parent": "cafe742c22b16655",
+			"name": "Values",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe9ced33f14c32": {
+			"parent": "cafe742c22b16655",
+			"name": "ActorProxy",
+			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe742c22b16655"
+				}
+			}
+		},
+		"cafe4ebb549622bf": {
+			"parent": "cafe7931dbe66438",
+			"name": "Alive",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"cafe144707e575b4": {
+			"parent": "cafe7931dbe66438",
+			"name": "Conscious",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"cafe610a12f64842": {
+			"parent": "cafe88cf0f0f1088",
+			"name": "Brother",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe04a7544effbf": {
+			"parent": "cafe610a12f64842",
+			"name": "Anguillo",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "10d7eaa3-9b6d-48b1-81be-bceccf8f9fa1"
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Colombia_Guard_Mansion_M_PRO80547"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Mansion Guard"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "958ef354a73d986e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_BOOTS"
+				},
+				"m_bWeaponsAllowed": { "type": "bool", "value": true },
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Bodyguard"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colombia.sweetmenutext?/colombia_guard_mansion_m_pro80547_description_f0d1dfab-ac73-4fe9-bbac-a5587fbc0f91.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colombia.sweetmenutext?/colombia_guard_mansion_m_pro80547_name_f0d1dfab-ac73-4fe9-bbac-a5587fbc0f91.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_CIVMALE01"]
+				},
+				"m_eOutfitType": {
+					"type": "EOutfitType",
+					"value": "eOT_Guard"
+				},
+				"m_AvailableWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafead16f9bccdad",
+						"cafebf29e023a5a8",
+						"cafe89235ebb5538",
+						"cafe5cafda8d4cd5",
+						"cafe04c17b041bbf"
+					],
+					"postInit": true
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafef4d88d2606c2"],
+					"postInit": true
+				},
+				"m_aWeaponsAllowedExceptionKeywords": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafefa73a1b8e9bd"],
+					"postInit": true
+				}
+			}
+		},
+		"cafefa73a1b8e9bd": {
+			"parent": "cafe04a7544effbf",
+			"name": "Keyword_ITEM_SNIPER_RIFLE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
+		},
+		"cafea34e33630b0e": {
+			"parent": "cafe04a7544effbf",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe04a7544effbf"]
+				}
+			}
+		},
+		"cafef4d88d2606c2": {
+			"parent": "cafe04a7544effbf",
+			"name": "CHARSET_Anguillo",
+			"factory": "00580B94C64CEED7",
+			"blueprint": "24782531560533719"
+		},
+		"cafead16f9bccdad": {
+			"parent": "cafe04a7544effbf",
+			"name": "ItemKey_Pistol01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "55ed7196-2303-4af6-9fa3-45b691134561"
+				}
+			}
+		},
+		"cafe8c7834773bd8": {
+			"parent": "cafe04a7544effbf",
+			"name": "KeywordEntity_FOLEY_OUTFIT_COLOMBIAGUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_colombiaguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_colombiaguard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe04a7544effbf"
+				}
+			}
+		},
+		"cafebf29e023a5a8": {
+			"parent": "cafe04a7544effbf",
+			"name": "ItemKey__SMG_ _NPC_ HX_10",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "e206ed81-0559-4289-9fec-e6a3e9d4ee7c"
+				}
+			}
+		},
+		"cafe04c17b041bbf": {
+			"parent": "cafe04a7544effbf",
+			"name": "DONT_USE_ON_LEVEL_ItemKey__SMG_ DAK X2 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "d75bef38-8a65-45f6-9cd1-ca5e23e2f79a"
+				}
+			}
+		},
+		"cafe1f3b3c12934b": {
+			"parent": "cafe04a7544effbf",
+			"name": "Keyword_Prof_Class_Guard_Heavy",
+			"factory": "00364659808ED13C",
+			"blueprint": "003A7D4D8810414B",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe04a7544effbf"]
+				}
+			}
+		},
+		"cafe5cafda8d4cd5": {
+			"parent": "cafe04a7544effbf",
+			"name": "DONT_USE_ON_LEVEL_ItemKey__AR_ Shashka A33",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "6e4afb04-417e-4cfc-aaa2-43f3ecca9037"
+				}
+			}
+		},
+		"cafe89235ebb5538": {
+			"parent": "cafe04a7544effbf",
+			"name": "ItemKey_Shotgun01 NPC Tactical Bartoli 12G 1",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "901a3b51-51a0-4236-bdf2-23d20696b358"
+				}
+			}
+		},
+		"cafe86aaf4b6c965": {
+			"parent": "cafe9edd9a6c1b11",
+			"name": "Brother",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafee3417e0fe89f": {
+			"parent": "cafe9edd9a6c1b11",
+			"name": "Son",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe078f7102e4f1": {
+			"parent": "cafe86aaf4b6c965",
+			"name": "Vito Anguillo",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -89.77272 },
+						"position": {
+							"x": 38.291622,
+							"y": -48.37065,
+							"z": 12.81871
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "d005e9ed-da7d-46ba-8043-ac81add28f95"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "10d7eaa3-9b6d-48b1-81be-bceccf8f9fa1"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Vito Anguillo"
+				},
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_CIVMALE01"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafeb9c7227511da": {
+			"parent": "cafe078f7102e4f1",
+			"name": "ActorDeath",
+			"factory": "[modules:/zactordeathentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe078f7102e4f1"
+				}
+			},
+			"events": {
+				"OnDead": {
+					"SetFalse": ["cafeed4f39efb39b", "cafe75f9d24e4a39"]
+				},
+				"OnPacified": { "SetFalse": ["cafe75f9d24e4a39"] },
+				"OnAlive": {
+					"SetTrue": ["cafe75f9d24e4a39", "cafeed4f39efb39b"]
+				}
+			}
+		},
+		"cafe8def0d86b32f": {
+			"parent": "cafe078f7102e4f1",
+			"name": "Values",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafec42a4e3d983d": {
+			"parent": "cafe078f7102e4f1",
+			"name": "ActorProxy",
+			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe078f7102e4f1"
+				}
+			}
+		},
+		"cafeed4f39efb39b": {
+			"parent": "cafe8def0d86b32f",
+			"name": "Alive",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"cafe75f9d24e4a39": {
+			"parent": "cafe8def0d86b32f",
+			"name": "Conscious",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

@@ -1,0 +1,115 @@
+{
+	"tempHash": "00D09FBADD50EB6B",
+	"tbluHash": "0087B48DEC713AE7",
+	"rootEntity": "b0362d77a63c010f",
+	"entities": {
+		"3c18a04e20b12193": {
+			"parent": "b0362d77a63c010f",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["7b2f9e3597634d2d"],
+					"postInit": true
+				}
+			}
+		},
+		"9cce0f5657a0b1d4": {
+			"parent": "b0362d77a63c010f",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["63b6c9a08ec4ba04"],
+					"postInit": true
+				}
+			}
+		},
+		"b0362d77a63c010f": {
+			"parent": null,
+			"name": "CHARSET_Revenge_Unique_Guillano",
+			"factory": "004470A9E6A7722D",
+			"blueprint": "00E21A11EC782D9E",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"9cce0f5657a0b1d4",
+						"1f2251a0a2ad4435",
+						"3c18a04e20b12193"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"1f2251a0a2ad4435": {
+			"parent": "b0362d77a63c010f",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["f7abea657ee9ceee"],
+					"postInit": true
+				}
+			}
+		},
+		"7b2f9e3597634d2d": {
+			"parent": "3c18a04e20b12193",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/fox/char_fox_unique.template?/outfit_fox_unique_clubowner_m_heroa_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"63b6c9a08ec4ba04": {
+			"parent": "9cce0f5657a0b1d4",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": "00E2EC9F1A597E89"
+				}
+			}
+		},
+		"f7abea657ee9ceee": {
+			"parent": "1f2251a0a2ad4435",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/fox/char_fox_unique.template?/outfit_fox_unique_clubowner_m_nude_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

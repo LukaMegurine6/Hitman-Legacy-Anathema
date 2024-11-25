@@ -1,0 +1,94 @@
+{
+	"tempHash": "00580B94C64CEED7",
+	"tbluHash": "0058BD6BB6A28FDF",
+	"rootEntity": "8d7ee06b98b3ca34",
+	"entities": {
+		"8d7ee06b98b3ca34": {
+			"parent": null,
+			"name": "CHARSET_Skunk_Unique_NolanCassidy_M",
+			"factory": "004470A9E6A7722D",
+			"blueprint": "00E21A11EC782D9E",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"76a39d7220a45416",
+						"4bf870321e877e8a",
+						"ffbb4355df1e2a64"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"6e076eb1b62c99b4": {
+			"parent": "ffbb4355df1e2a64",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"ffbb4355df1e2a64": {
+			"parent": "8d7ee06b98b3ca34",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["6e076eb1b62c99b4"]
+				}
+			}
+		},
+		"fbb4037001ee3f2a": {
+			"parent": "4bf870321e877e8a",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"a2ed09fcd96924fe": {
+			"parent": "76a39d7220a45416",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": "009A26A73827D315"
+				}
+			}
+		},
+		"76a39d7220a45416": {
+			"parent": "8d7ee06b98b3ca34",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["a2ed09fcd96924fe"]
+				}
+			}
+		},
+		"4bf870321e877e8a": {
+			"parent": "8d7ee06b98b3ca34",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["fbb4037001ee3f2a"]
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
