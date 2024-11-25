@@ -1,0 +1,22 @@
+{
+	"FIREARMS_HERO_PISTOL_BLACKLILLYV3": {
+		"Id": "FIREARMS_HERO_PISTOL_BLACKLILLYV3",
+		"Guid": "2cac067e-dde8-4f2a-b879-c811ab01ec5e",
+		"Type": "weapon",
+		"Subtype": "pistol",
+		"RMTPrice": 99,
+		"GamePrice": 99,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "rare",
+			"LoadoutSlot": "concealedweapon",
+			"RepositoryId": "56175129-c2bb-4b27-9883-67f62dcc80b9"
+		},
+		"Rarity": "rare"
+	}
+}
