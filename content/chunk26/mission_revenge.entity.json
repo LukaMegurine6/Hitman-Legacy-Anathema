@@ -27,12 +27,6 @@
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
-		"cafe6e1725b712a4": {
-			"parent": "cafeab894165b84a",
-			"name": "Props",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
 		"cafea25c82e55e50": {
 			"parent": "cafe67e1a0c6a444",
 			"name": "Keyword_WEAPON_SWORD",
@@ -612,12 +606,6 @@
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
 			"properties": { "m_bValue": { "type": "bool", "value": true } }
-		},
-		"cafe84ffa97c4870": {
-			"parent": "cafeb4ed9b8aaf2d",
-			"name": "Son",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [
