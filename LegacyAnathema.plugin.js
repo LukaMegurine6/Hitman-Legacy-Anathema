@@ -196,7 +196,7 @@ const contracts = [
             "Subtype": "flashback",
             "Id": "96fcb143-e0bc-4d80-8a36-82205f8c681c",
             "PublicId": "137904207541",
-            "TileImage": "images/Secterian.jpg",
+            "TileImage": "images/Anathema.jpg",
             "GroupObjectiveDisplayOrder": [
                 {
                     "Id": "89fafd79-9c9f-4a0d-a4a1-13c2ffdcf039"
